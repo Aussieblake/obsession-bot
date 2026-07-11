@@ -12,7 +12,8 @@ import {
   endApplication,
   getAppChannel,
 } from "../applicationStore.js";
-import { logger } from "../lib/logger.js";
+
+import { logger } from "../../lib/logger.js";
 
 const QUESTIONS = [
   "**Question 1 of 9**\nWhat is your Discord username?",
