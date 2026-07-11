@@ -11,7 +11,7 @@ import {
   startApplication,
   endApplication,
   getAppChannel,
-} from "./applicationStore.js";
+} from "../applicationStore.js";
 import { logger } from "../lib/logger.js";
 
 const QUESTIONS = [
