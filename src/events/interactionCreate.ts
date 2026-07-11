@@ -21,7 +21,7 @@ import {
   getOwnerByChannel,
 } from "../ticketStore.js";
 import { isApplying } from "../applicationStore.js";
-import { runModappFlow } from "../modappFlow.js";
+import { runModappFlow } from "../commands/modappFlow.js";
 import { logger } from "../../lib/logger.js";
 
 const TICKET_CATEGORY_NAME = "Tickets";
